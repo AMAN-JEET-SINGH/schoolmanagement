@@ -15,5 +15,4 @@ connection.connect(err => {
     process.exit(1);
   }
   console.log('Connected successfully!');
-  connection.end();
 });
