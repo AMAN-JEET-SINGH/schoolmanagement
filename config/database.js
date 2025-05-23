@@ -16,3 +16,4 @@ connection.connect(err => {
   }
   console.log('Connected successfully!');
 });
+module.exports = connection;
